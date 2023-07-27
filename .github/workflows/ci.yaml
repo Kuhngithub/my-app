@@ -12,11 +12,11 @@ jobs:
       - name: Install packages
         run: npm ci
 
-      #- name: Run ESlint
+       #- name: Run ESlint
        # run: npm run lint
 
        - name: Run Jest Tests
-        run: npm run ci:test
+         run: npm run ci:test
 
       - name: Run Cypress Tests
         uses: cypress-io/github-action@v4
